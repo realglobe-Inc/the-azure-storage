@@ -1,0 +1,109 @@
+{
+    "functions": [
+        {
+            "name": "create",
+            "access": "",
+            "virtual": false,
+            "description": "Create a TheAzureStorage instance",
+            "parameters": [
+                {
+                    "name": "args",
+                    "type": "*",
+                    "description": "",
+                    "default": "",
+                    "optional": "",
+                    "nullable": ""
+                }
+            ],
+            "examples": [],
+            "returns": {
+                "type": "TheAzureStorage",
+                "description": ""
+            }
+        },
+        {
+            "name": "publicReadPolicy",
+            "access": "",
+            "virtual": false,
+            "description": "Create public read policy",
+            "parameters": [],
+            "examples": [],
+            "returns": {
+                "type": "Object",
+                "description": ""
+            }
+        }
+    ],
+    "classes": [
+        {
+            "name": "TheAzureStorage",
+            "description": "",
+            "extends": [],
+            "access": "",
+            "virtual": false,
+            "fires": "",
+            "constructor": {
+                "name": "TheAzureStorage",
+                "description": "",
+                "parameters": [
+                    {
+                        "name": "account",
+                        "type": "string",
+                        "description": "Azure account",
+                        "default": "",
+                        "optional": "",
+                        "nullable": ""
+                    },
+                    {
+                        "name": "accessKey",
+                        "type": "string",
+                        "description": "Azure access key",
+                        "default": "",
+                        "optional": "",
+                        "nullable": ""
+                    },
+                    {
+                        "name": "options",
+                        "type": "Object",
+                        "description": "",
+                        "default": "{}",
+                        "optional": true,
+                        "nullable": ""
+                    }
+                ],
+                "examples": []
+            },
+            "functions": [
+                {
+                    "name": "upload",
+                    "access": "",
+                    "virtual": false,
+                    "description": "Upload local file to azure storage",
+                    "parameters": [
+                        {
+                            "name": "filename",
+                            "type": "string",
+                            "description": "Filename to upload",
+                            "default": "",
+                            "optional": "",
+                            "nullable": ""
+                        },
+                        {
+                            "name": "options",
+                            "type": "Object",
+                            "description": "Optional settings",
+                            "default": "{}",
+                            "optional": true,
+                            "nullable": ""
+                        }
+                    ],
+                    "examples": [],
+                    "returns": {
+                        "type": "Promise.<{url: string}>",
+                        "description": ""
+                    }
+                }
+            ]
+        }
+    ]
+}
