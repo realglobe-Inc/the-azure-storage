@@ -92,7 +92,7 @@ tryExample().catch((err) => console.error(err))
 API Guide
 -----
 
-+ [the-azure-storage@1.0.1](./doc/api/api.md)
++ [the-azure-storage@1.1.0](./doc/api/api.md)
   + [create(args)](./doc/api/api.md#the-azure-storage-function-create)
   + [TheAzureStorage](./doc/api/api.md#the-azure-storage-class)
 

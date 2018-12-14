@@ -81,7 +81,7 @@
                     "description": "Upload local file to azure storage",
                     "parameters": [
                         {
-                            "name": "filename",
+                            "name": "src",
                             "type": "string",
                             "description": "Filename to upload",
                             "default": "",
