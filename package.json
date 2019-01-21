@@ -19,12 +19,12 @@
   },
   "devDependencies": {
     "mocha": "^5.2.0",
-    "the-script-build": "*",
-    "the-script-jsdoc": "*",
+    "the-script-build": "^5.0.0",
+    "the-script-jsdoc": "^2.0.4",
     "the-script-release": "^1.0.6",
     "the-script-share": "^1.0.5",
     "the-script-update": "^2.0.0",
-    "the-templates": "*"
+    "the-templates": "^6.0.3"
   },
   "engines": {
     "node": ">=8",
