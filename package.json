@@ -14,17 +14,17 @@
   "dependencies": {
     "azure-storage": "^2.10.2",
     "mime": "^2.4.0",
-    "moment": "^2.22.2",
+    "moment": "^2.23.0",
     "uuid": "^3.3.2"
   },
   "devDependencies": {
     "mocha": "^5.2.0",
-    "the-script-build": "^4.0.10",
-    "the-script-jsdoc": "^2.0.3",
+    "the-script-build": "*",
+    "the-script-jsdoc": "*",
     "the-script-release": "^1.0.6",
     "the-script-share": "^1.0.5",
     "the-script-update": "^2.0.0",
-    "the-templates": "^5.0.1"
+    "the-templates": "*"
   },
   "engines": {
     "node": ">=8",
